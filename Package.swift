@@ -41,7 +41,7 @@ let package = Package(
         .target(name: "EGChannelLib"),
         .target(name: "EGMeasureLib")
       ],
-      path: "Sources"
+      path: "eDistantObject"
     )
   ]
 )
