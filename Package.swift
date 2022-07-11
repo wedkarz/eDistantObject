@@ -41,7 +41,11 @@ let package = Package(
         .target(name: "EGChannelLib"),
         .target(name: "EGMeasureLib")
       ],
-      path: "eDistantObject"
+      path: "eDistantObject/Service/Sources",
+      exclude: [
+        "CodableVariable.swift"
+      ],
+      publicHeadersPath: "."
     )
   ]
 )
