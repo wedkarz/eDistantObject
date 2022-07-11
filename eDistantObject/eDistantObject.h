@@ -8,6 +8,6 @@
 #ifndef eDistantObject_h
 #define eDistantObject_h
 
-#import "Service/Sources/EDOHostService.h"
+@import EGChannelLib;
 
 #endif /* eDistantObject_h */
